@@ -1,25 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Family Reunion Itinerary</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The McCauley Family Reunion</title>
     <style>
-        body {font-family: Arial, sans-serif; text-align: center;}
-        h1 {color: darkgreen;}
-        ul {list-style: none; padding: 0;}
-        li {padding: 10px;}
-        .itinerary {border: 2px solid darkgreen; padding: 20px; max-width: 600px; margin: auto;}
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: darkgreen;
+            padding: 20px;
+        }
+        .itinerary {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .day {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .time {
+            font-weight: bold;
+            color: darkgreen;
+        }
+        .activity {
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
-    <h1>The McCauley Family Reunion!</h1>
-    <p>Date: October 18-20, 2024</p>
+    <h1>Family Reunion Itinerary</h1>
     <div class="itinerary">
-        <h2>Tentative Itinerary</h2>
-        <ul>
-            <li><strong>Friday:</strong> Welcome Happy Hour at Tony & Vicki's - 4:00 PM onwards</li>
-            <li><strong>Saturday:</strong> Family Games - 10:00 AM - 4:00 PM at City Park</li>
-            <li><strong>Sunday:</strong> Farewell Brunch - 9:00 AM at Lakeside Café</li>
-        </ul>
+        <div class="day">
+            <h2>Day 1: July 12, 2025</h2>
+            <ul>
+                <li><span class="time">10:00 AM</span> - <span class="activity">Family Breakfast at Park Pavilion</span></li>
+                <li><span class="time">12:00 PM</span> - <span class="activity">Outdoor Games & Activities</span></li>
+                <li><span class="time">3:00 PM</span> - <span class="activity">Family Photo Session</span></li>
+                <li><span class="time">6:00 PM</span> - <span class="activity">Welcome Dinner at the Lakeside Cafe</span></li>
+            </ul>
+        </div>
+        <div class="day">
+            <h2>Day 2: July 13, 2025</h2>
+            <ul>
+                <li><span class="time">8:00 AM</span> - <span class="activity">Morning Yoga by the Lake</span></li>
+                <li><span class="time">10:00 AM</span> - <span class="activity">Family Hike at Forest Trail</span></li>
+                <li><span class="time">12:30 PM</span> - <span class="activity">Picnic Lunch at the Meadow</span></li>
+                <li><span class="time">3:00 PM</span> - <span class="activity">Talent Show at the Pavilion</span></li>
+                <li><span class="time">7:00 PM</span> - <span class="activity">BBQ Dinner & Bonfire</span></li>
+            </ul>
+        </div>
+        <div class="day">
+            <h2>Day 3: July 14, 2025</h2>
+            <ul>
+                <li><span class="time">9:00 AM</span> - <span class="activity">Farewell Brunch at Lakeside Café</span></li>
+                <li><span class="time">11:00 AM</span> - <span class="activity">Family Farewell Gathering</span></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
