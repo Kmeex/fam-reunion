@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Family Reunion Itinerary</title>
+    <style>
+        body {font-family: Arial, sans-serif; text-align: center;}
+        h1 {color: darkgreen;}
+        ul {list-style: none; padding: 0;}
+        li {padding: 10px;}
+        .itinerary {border: 2px solid darkgreen; padding: 20px; max-width: 600px; margin: auto;}
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Family Reunion!</h1>
+    <p>Date: July 12-14, 2025</p>
+    <div class="itinerary">
+        <h2>Itinerary</h2>
+        <ul>
+            <li><strong>Day 1:</strong> Welcome Dinner - 6:00 PM at Park Pavilion</li>
+            <li><strong>Day 2:</strong> Family Games - 10:00 AM - 4:00 PM at City Park</li>
+            <li><strong>Day 3:</strong> Farewell Brunch - 9:00 AM at Lakeside Café</li>
+        </ul>
+    </div>
+</body>
+</html>
